@@ -21,7 +21,7 @@ Features
 -  Organized project structure
 
  Project Structure
-ecommerce-springboot/ 
+demo/ 
 ├── frontend/         # React application 
 ├── src/              # Java backend source code 
 ├── pom.xml           # Maven configuration 
@@ -40,6 +40,7 @@ cd frontend npm install npm start
 
  4. Configure application.properties
 properties
+spring.application.name=demo
 spring.datasource.url=jdbc:mysql://localhost:3306/ecommercedb1
 spring.datasource.username=root
 spring.datasource.password=root
